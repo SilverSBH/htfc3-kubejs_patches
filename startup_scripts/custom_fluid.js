@@ -29,4 +29,5 @@ onEvent('fluid.registry', event => {
 	event.create("fruity_soda")         .thinTexture(0xe3502b)  .bucketColor(0xe3502b)  .displayName("Fruity Soda")                     .noBlock()
 	event.create("veggie_juice")        .thinTexture(0xe36f2b)  .bucketColor(0xe36f2b)  .displayName("Vegetable Juice")                 .noBlock()
 	event.create("veggie_soda")         .thinTexture(0xe05b0d)  .bucketColor(0xe05b0d)  .displayName("Vegetable Soda")                  .noBlock()
+	event.create("builders_tea")        .thinTexture(0xcd7559)  .bucketColor(0xcd7559)  .displayName("Builder's Tea")                   .noBlock()
 })

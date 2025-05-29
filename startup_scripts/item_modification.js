@@ -12,7 +12,19 @@ onEvent('item.modification', event => {
 	})
 	event.modify('untamedwilds:food_turtle_soup', item => { item.maxStackSize = 32 })
 
-
+	// builder's tea modification attempt (didn't work)
+	/*event.modify('create:builders_tea', item => {
+		item.finishUsing((itemstack, level, entity) => {
+			let effects = entity.potionEffects;
+			effects.add("minecraft:haste", 180*20, 2)
+			itemstack.itemStack.shrink(1)
+			if(entity.player) {
+				entity.minecraftPlayer.addItem(Item.of("minecraft:glass_bottle").itemStack)
+				return itemstack;
+			}
+		})
+	})*/
+	
 	// experimental nourishment fix
 	event.modify([
 		'pneumaticcraft:cod_n_chips',

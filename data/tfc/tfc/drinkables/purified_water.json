@@ -3,7 +3,7 @@
   "ingredient": [
     "kubejs:purified_water"
   ],
-  "thirst": 20,
+  "thirst": 25,
   "effects": [
     {
       "type": "minecraft:speed",

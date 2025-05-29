@@ -11,7 +11,7 @@
     "amount": 200
   },
   "output_fluid": {
-    "fluid": "create:tea",
+    "fluid": "kubejs:builders_tea",
     "amount": 200
   }
 }

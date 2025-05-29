@@ -3,6 +3,6 @@
   "ingredient": [
     "kubejs:boiled_water"
   ],
-  "thirst": 20,
+  "thirst": 25,
   "effects": []
 }

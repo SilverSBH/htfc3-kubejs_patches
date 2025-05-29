@@ -127,6 +127,23 @@ onEvent('item.registry', event => {
 	event.create('img_ores')					.displayName('img_ores')
 	event.create('img_wiki')					.displayName('img_wiki')
 	event.create('img_book')					.displayName('img_book')
+	
+	// Builder's tea Replacement Item: TEMPORARY
+	event.create('food/builders_tea')
+	.displayName("Builder's Tea")
+	.useAnimation('drink')
+	.useDuration((itemstack) => 40)
+	.use((level, player, hand) => true)
+	.food(food=>{food.hunger(0).saturation(0)})
+	.finishUsing((itemstack, level, entity) => {
+		let effects = entity.potionEffects;
+		effects.add("minecraft:haste", 180*20, 2)
+		itemstack.itemStack.shrink(1)
+		if(entity.player) {
+			entity.minecraftPlayer.addItem(Item.of("minecraft:glass_bottle").itemStack)
+			return itemstack;
+		}
+	})
 })
 
 onEvent('item.registry.tool_tiers', event => {

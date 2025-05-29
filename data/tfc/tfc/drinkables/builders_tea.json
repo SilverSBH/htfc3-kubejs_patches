@@ -1,0 +1,14 @@
+{
+	"ingredient": [  
+		"kubejs:builders_tea"
+	],
+	"thirst": 25,
+	"effects": [
+	{
+		"type": "minecraft:haste",
+		"duration": 1800,
+		"amplifier": 2,
+		"chance": 1.0
+	}
+	]
+}

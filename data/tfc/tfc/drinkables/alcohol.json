@@ -3,6 +3,6 @@
   "ingredient": {
     "tag": "tfc:alcohols"
   },
-  "thirst": 10,
+  "thirst": 20,
   "intoxication": 4000
 }

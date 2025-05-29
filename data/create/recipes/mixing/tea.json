@@ -25,7 +25,7 @@
   "duration": 2000,
   "temperature": 600,
   "fluid_output": {
-    "fluid": "create:tea",
+    "fluid": "kubejs:builders_tea",
     "amount": 1000
   }
 }
