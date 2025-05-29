@@ -131,11 +131,22 @@ onEvent('item.registry', event => {
 	// Builder's tea Replacement Item: TEMPORARY
 	event.create('food/builders_tea')
 	.displayName("Builder's Tea")
+  .maxStackSize(16)
+  .tooltip("Gives Haste III for 3:00")
+  .use(() => true)
 	.useAnimation('drink')
 	.useDuration((itemstack) => 40)
-	.use((level, player, hand) => true)
-	.food(food=>{food.hunger(0).saturation(0)})
-	.finishUsing((itemstack, level, entity) => {
+	.food(food => {
+    food
+    .hunger(0)
+    .saturation(0)
+    .effect('minecraft:haste', 3600, 2, 1)
+    .eaten((ctx) => {
+      //itemstack.itemStack.shrink(1)
+      ctx.player.give("minecraft:glass_bottle");
+    })
+  })
+	/*.finishUsing((itemstack, level, entity) => {
 		let effects = entity.potionEffects;
 		effects.add("minecraft:haste", 180*20, 2)
 		itemstack.itemStack.shrink(1)
@@ -143,7 +154,7 @@ onEvent('item.registry', event => {
 			entity.minecraftPlayer.addItem(Item.of("minecraft:glass_bottle").itemStack)
 			return itemstack;
 		}
-	})
+	})*/
 })
 
 onEvent('item.registry.tool_tiers', event => {

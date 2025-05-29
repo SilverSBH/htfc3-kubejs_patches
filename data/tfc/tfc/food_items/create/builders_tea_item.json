@@ -1,0 +1,9 @@
+{
+  "ingredient": {
+    "item": "kubejs:food/builders_tea"
+  },
+  "hunger": 0,
+  "saturation": 0,
+  "water": 100,
+  "decay_modifier": 0
+}
