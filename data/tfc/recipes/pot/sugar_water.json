@@ -4,6 +4,9 @@
   "ingredients": [
     {
       "tag": "firmalife:sweetener"
+    },
+    {
+      "tag": "firmalife:sweetener"
     }
   ],
   "fluid_ingredient": {
