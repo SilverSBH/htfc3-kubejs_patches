@@ -20,7 +20,6 @@ onEvent('fluid.registry', event => {
 	event.create("oat_milk")			.thinTexture(0xebe2ca)	.bucketColor(0xebe2ca)	.displayName("Oat Milk")						.noBlock()
 	event.create("bourbon")             .thinTexture(0xb7621b)  .bucketColor(0xb7621b)  .displayName("Bourbon")                         .noBlock()
 	event.create("lager")               .thinTexture(0xcd8d4e)  .bucketColor(0xcd8d4e)  .displayName("Lager")                           .noBlock()
-	event.create("chocolate_milk")      .thinTexture(0x755944)  .bucketColor(0x755944)  .displayName("Chocolate Milk")                  .noBlock()
 	event.create("strawberry_milk")     .thinTexture(0xd46874)  .bucketColor(0xd46874)  .displayName("Strawberry Milk")                 .noBlock()
 	event.create("cream_soda")          .thinTexture(0xd49368)  .bucketColor(0xd49368)  .displayName("Cream Soda")                      .noBlock()
 	event.create("lemonade")            .thinTexture(0xf2e26b)  .bucketColor(0xf2e26b)  .displayName("Lemonade")                        .noBlock()
