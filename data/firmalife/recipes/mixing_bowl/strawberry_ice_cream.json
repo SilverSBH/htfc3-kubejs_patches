@@ -1,5 +1,4 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "type": "firmalife:mixing_bowl",
   "ingredients": [
     {
@@ -8,12 +7,17 @@
         "item": "firmalife:food/vanilla_ice_cream"
       }
     },
-    {
-      "type": "tfc:not_rotten",
-      "ingredient": {
-        "tag": "tfc:foods/strawberry"
+    [
+      {
+        "item": "firmalife:strawberry_jar"
+      },
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "tfc:food/strawberry"
+        }
       }
-    }
+    ]
   ],
   "output_item": {
     "item": "firmalife:food/strawberry_ice_cream"

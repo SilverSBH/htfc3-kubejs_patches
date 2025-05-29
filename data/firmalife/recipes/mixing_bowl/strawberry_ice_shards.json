@@ -5,30 +5,41 @@
     {
       "item": "firmalife:ice_shavings"
     },
-	{
-		"tag": "firmalife:sweetener"
-	},
-	{
-		"item": "firmalife:spice/vanilla"
-	},
-    {
-      "type": "tfc:not_rotten",
-      "ingredient": {
-        "tag": "tfc:foods/strawberry"
-      }
+	  {
+      "tag": "firmalife:sweetener"
     },
-	{
-		"type": "tfc:not_rotten",
-		"ingredient": {
-			"tag": "tfc:foods/strawberry"
-		}
-	}
+    {
+      "item": "firmalife:spice/vanilla"
+    },
+    [
+      {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "tfc:food/strawberry"
+        }
+      },
+      {
+        "item": "firmalife:strawberry_jar"
+      }
+    ],
+		[
+		  {
+        "type": "tfc:not_rotten",
+        "ingredient": {
+          "item": "tfc:food/strawberry"
+        }
+      },
+      {
+        "item": "firmalife:strawberry_jar"
+      }
+    ]
   ],
   "fluid_ingredient": {
 	  "ingredient": "firmalife:cream",
 	  "amount": 1000
   },
   "output_item": {
-    "item": "firmalife:food/strawberry_ice_cream"
+    "item": "firmalife:food/strawberry_ice_cream",
+	"count": 2
   }
 }
