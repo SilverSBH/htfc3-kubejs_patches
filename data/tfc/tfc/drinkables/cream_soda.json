@@ -1,0 +1,8 @@
+{
+  "ingredient": [
+    "kubejs:cream_soda"
+  ],
+  "thirst": 25,
+  "saturation": 4,
+  "dairy": 1.5
+}

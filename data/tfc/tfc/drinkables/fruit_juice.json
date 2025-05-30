@@ -1,0 +1,8 @@
+{
+  "ingredient": [
+    "kubejs:fruit_juice"
+  ],
+  "thirst": 20,
+  "saturation": 1,
+  "fruit": 1.0
+}

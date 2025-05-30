@@ -1,0 +1,8 @@
+{
+  "ingredient": [
+    "kubejs:lemonade"
+  ],
+  "thirst": 25,
+  "saturation": 4,
+  "fruit": 1.5
+}

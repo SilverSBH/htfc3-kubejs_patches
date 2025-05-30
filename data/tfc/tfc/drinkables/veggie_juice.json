@@ -1,0 +1,8 @@
+{
+  "ingredient": [
+    "kubejs:veggie_juice"
+  ],
+  "thirst": 20,
+  "saturation": 1,
+  "vegetables": 1.0
+}
