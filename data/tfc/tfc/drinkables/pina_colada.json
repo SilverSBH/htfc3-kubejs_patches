@@ -1,0 +1,14 @@
+{
+  "ingredient": [
+    "firmalife:pina_colada"
+  ],
+  "thirst": 25,
+  "effects": [
+    {
+      "type": "kubejs:energized",
+      "amplifier": 0,
+      "duration": 1200,
+      "chance": 1.0
+    }
+  ]
+}
