@@ -2,7 +2,7 @@
   "type": "immersiveengineering:mixer",
   "inputs": [
     {
-      "tag": "tfc:makes_tannin"
+      "tag": "farmersrespite:tannin_leaves"
     }
   ],
   "fluid": {

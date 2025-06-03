@@ -337,6 +337,12 @@ onEvent('tags.items', event => {
 		'tfc:food/cooked_egg',
 		'tfc:food/boiled_egg'
 	])
+  event.add('farmersrespite:tannin_leaves', [
+    'farmersrespite:green_tea_leaves',
+    'farmersrespite:yellow_tea_leaves',
+    'farmersrespite:black_tea_leaves',
+    'kubejs:dry_tea_leaves'
+  ])
 
 	// removeAllTagsFrom doesn't seem to work with regex :(
 	global.items_to_remove = [
